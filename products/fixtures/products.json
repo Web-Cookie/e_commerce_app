@@ -1,0 +1,17 @@
+[
+   {
+      "pk":1,
+      "model":"products.product",
+      "fields":{
+         "sku":"pp5001340155",
+         "name":"Arai VX Pro 4 Nicky-7 Helmet (XS)",
+         "description":"Get Arai fit, finish, protection in a dirt helmet with the VX Pro 4. Vents/peak are built to break off on impact, saving you grief in the long run",
+         "price":389.99,
+         "category":1,
+         "rating":4.6,
+         "image_url":"arai_vxpro4_nicky7_300x300.jpg",
+         "image":"arai_vxpro4_nicky7_300x300.jpg"
+      }
+   }
+
+]
