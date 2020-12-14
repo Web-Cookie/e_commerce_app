@@ -9,9 +9,135 @@
          "price":389.99,
          "category":1,
          "rating":4.6,
-         "image_url":"arai_vxpro4_nicky7_300x300.jpg",
-         "image":"arai_vxpro4_nicky7_300x300.jpg"
+         "image_url":"arai_vxpro4_nicky7_300x300_5FQF3Zr.jpg",
+         "image":"arai_vxpro4_nicky7_300x300_5FQF3Zr.jpg"
+      }
+   },
+   {
+      "pk":2,
+      "model":"products.product",
+      "fields":{
+         "sku":"pp5001600425",
+         "name":"LS2 Subverter Helmet",
+         "description":"The MX470 Subverter changes the rules of off-road racing and gives you an edge against the competition",
+         "price":120,
+         "category":1,
+         "rating":4.6,
+         "image_url":"ls2_subverter_helmet_white_300x300.jpg",
+         "image":"ls2_subverter_helmet_white_300x300.jpg"
+      }
+   },
+   {
+      "pk":3,
+      "model":"products.product",
+      "fields":{
+         "sku":"pp5001600425",
+         "name":"Fox Racing V1 Matte Helmet",
+         "description":"The Fox Racing V1 Helmet delivers the next level of rider technology, Fox’s exclusive Magnetic Visor Release System (MVRS). ",
+         "price":134,
+         "category":1,
+         "rating":5,
+         "image_url":"fox_racing_v1_werd_helmet_300x300.jpg",
+         "image":"fox_racing_v1_werd_helmet_300x300.jpg"
+      }
+   },
+   {
+      "pk":4,
+      "model":"products.product",
+      "fields":{
+         "sku":"pp5001600425",
+         "name":"Bell MX-9 MIPS Helmet",
+         "description":"The motocross favorite MX-9 helmet has been upgraded with MIPS technology for greater protection from angled and rotational impact at speed",
+         "price":120,
+         "category":1,
+         "rating":4.5,
+         "image_url":"bell_helmets_moto9_mips_tomac_eagle_helmet_gloss_black_blue_300x300.jpg",
+         "image":"bell_helmets_moto9_mips_tomac_eagle_helmet_gloss_black_blue_300x300.jpg"
+      }
+   },
+   {
+      "pk":5,
+      "model":"products.product",
+      "fields":{
+         "sku":"pp5001600425",
+         "name":"O'Neal 2 Series Slick Helmet",
+         "description":"Slick is exactly how you'll feel as you scrub the next jump in the 2 Series Slick Helmet from O'Neal.",
+         "price":120,
+         "category":1,
+         "rating":4.6,
+         "image_url":"o_neal5_series_warhawk_helmet_300x300_cQbqJ30.jpg",
+         "image":"o_neal5_series_warhawk_helmet_300x300_cQbqJ30.jpg"
+      }
+   },
+   {
+      "pk":6,
+      "model":"products.product",
+      "fields":{
+         "sku":"pp5001600425",
+         "name":"O'Neal 3 Series Crank Helmet",
+         "description":"The O'Neal 3 Series Helmet is constructed using a lightweight poly-injected shell and delivers full venting for improved aerodynamics and overall cool",
+         "price":129,
+         "category":1,
+         "rating":5,
+         "image_url":"o_neal5_series_warhawk_helmet_300x300.jpg",
+         "image":"o_neal5_series_warhawk_helmet_300x300.jpg"
+      }
+   },
+   {
+      "pk":7,
+      "model":"products.product",
+      "fields":{
+         "sku":"pp5001600425",
+         "name":"Thor Sector Split Helmet",
+         "description":"When designing the Sector, Thor worked hand in hand with their team riders to develop a helmet that checked all the boxes.",
+         "price":160,
+         "category":1,
+         "rating":4.5,
+         "image_url":"thor_sector_helmet_black_300x300.jpg",
+         "image":"thor_sector_helmet_black_300x300.jpg"
+      }
+   },
+   {
+      "pk":8,
+      "model":"products.product",
+      "fields":{
+         "sku":"pp5001600425",
+         "name":"Shoei VFX-EVO Glaive Helmet",
+         "description":"Featherweight Snell-rated protection for the track, the VFX-W is the pinnacle of safety, ventilation & comfort for the demanding motocross rider.",
+         "price":489.99,
+         "category":1,
+         "rating":4.6,
+         "image_url":"shoei_vfxevo_allegiant_helmet_white_blue_yellow_300x300.jpg",
+         "image":"shoei_vfxevo_allegiant_helmet_white_blue_yellow_300x300.jpg"
+      }
+   },
+   {
+      "pk":9,
+      "model":"products.product",
+      "fields":{
+         "sku":"pp5001600425",
+         "name":"Fly Racing Dirt F2 Carbon MIPS Shield Helmet",
+         "description":"The F2 Carbon MIPS Helmet is a powerhouse of protection featuring multiple layers of safety and functionality.",
+         "price":199.96,
+         "category":1,
+         "rating":4.6,
+         "image_url":"bell_moto9_carbon_flex_helmet_300x300.jpg",
+         "image":"bell_moto9_carbon_flex_helmet_300x300.jpg"
+      }
+   },
+   {
+      "pk":10,
+      "model":"products.product",
+      "fields":{
+         "sku":"pp5001600425",
+         "name":"509 Tactical Helmet",
+         "description":"The 509 Tactical Helmet is the result of the desire to offer an industry-leading snow helmet at an an affordable price point.",
+         "price":149.99,
+         "category":1,
+         "rating":4.6,
+         "image_url":"bilt_amped_evo_helmet_black_red_300x300.jpg",
+         "image":"bilt_amped_evo_helmet_black_red_300x300.jpg"
       }
    }
-
+   
 ]
