@@ -121,8 +121,8 @@
          "price":199.96,
          "category":1,
          "rating":4.6,
-         "image_url":"bell_moto9_carbon_flex_helmet_300x300.jpg",
-         "image":"bell_moto9_carbon_flex_helmet_300x300.jpg"
+         "image_url":"fly_racing_dirt_f2_carbon_shield_helmet_blue_port_300x300.jpg",
+         "image":"fly_racing_dirt_f2_carbon_shield_helmet_blue_port_300x300.jpg"
       }
    },
    {
@@ -138,6 +138,202 @@
          "image_url":"bilt_amped_evo_helmet_black_red_300x300.jpg",
          "image":"bilt_amped_evo_helmet_black_red_300x300.jpg"
       }
+   },
+    {
+      "pk":11,
+      "model":"products.product",
+      "fields":{
+         "sku":"pp5001600425",
+         "name":"BILT Lux Camo Race Helmet",
+         "description":"Bilt's LUX line delivers high performance at a low price. The LUX Race Helmet keeps your head safe and money in your pocket.",
+         "price":109.96,
+         "category":1,
+         "rating":4.6,
+         "image_url":"bilt_lux_camo_helmet_camo_hi_vis_300x300.jpg",
+         "image":"bilt_lux_camo_helmet_camo_hi_vis_300x300.jpg"
+      }
+   },
+    {
+      "pk":12,
+      "model":"products.product",
+      "fields":{
+         "sku":"pp5001600425",
+         "name":"Bell Moto-9 Carbon Flex Helmet",
+         "description":"With a unique 3 layer floating impact liner, the Moto-9 Flex offers an adaptive fit & superior rotational impact protection at low, mid & high speeds.",
+         "price":629.96,
+         "category":1,
+         "rating":4.6,
+         "image_url":"bell_moto9_carbon_flex_helmet_300x300.jpg",
+         "image":"bell_moto9_carbon_flex_helmet_300x300.jpg"
+      }
+   },
+   {
+      "pk":13,
+      "model":"products.product",
+      "fields":{
+         "sku":"P385061",
+         "name":"Alpinestars Tech 3 Boots",
+         "description":"Alpinestars Tech 3 Boots",
+         "price":199.96,
+         "category":5,
+         "rating":5,
+         "image_url":"alpinestars_tech3_boots_black_white_yellow_red_300x300.jpg",
+         "image":"alpinestars_tech3_boots_black_white_yellow_red_300x300.jpg"
+      }
+   },
+    {
+      "pk":14,
+      "model":"products.product",
+      "fields":{
+         "sku":"P421064",
+         "name":"Thor Blitz XP Boots",
+         "description":"Support starts at the ground level and the Thor Blitz XP Boots are designed to deliver just that.",
+         "price":129.96,
+         "category":5,
+         "rating":4.6,
+         "image_url":"thor_blitz_xp_boots_black_300x300.jpg",
+         "image":"thor_blitz_xp_boots_black_300x300.jpg"
+      }
+   },
+    {
+      "pk":15,
+      "model":"products.product",
+      "fields":{
+         "sku":"P355314",
+         "name":"SIDI Crossfire 3 SRS Boots",
+         "description":"Got beefy calves? The Crossfire 3 Boot has you covered. Need a new sole? SIDI has got your back. Adjust the straps on the leg once and your set to go.",
+         "price":109.96,
+         "category":5,
+         "rating":5,
+         "image_url":"sidi_boots_sidi_crossfire_sr_black_300x300.jpg",
+         "image":"sidi_boots_sidi_crossfire_sr_black_300x300.jpg"
+      }
+   },
+    {
+      "pk":16,
+      "model":"products.product",
+      "fields":{
+         "sku":"P421089",
+         "name":"Alpinestars Tech 7 Boots",
+         "description":"The Alpinestars Tech 7 Boots are lightweight and have a low-profile toe. The calf gaiter keeps out debris that can get inside and irritate",
+         "price":279.96,
+         "category":5,
+         "rating":4.5,
+         "image_url":"alpinestars_tech7_boots_300x300.jpg",
+         "image":"alpinestars_tech7_boots_300x300.jpg"
+      }
+   },
+    {
+      "pk":17,
+      "model":"products.product",
+      "fields":{
+         "sku":"P320071",
+         "name":"Gaerne SG-12 Boots",
+         "description":"The Gaerne SG-12 Boots are the pinnacle of Gaerne's Motocross boot line and feature a Dual Stage Pivot System which offers excellent mobility.",
+         "price":529.96,
+         "category":5,
+         "rating":5,
+         "image_url":"gaerne_sg12_grey_blk_neon_grey_hi_viz_yellow_300x300.jpg",
+         "image":"gaerne_sg12_grey_blk_neon_grey_hi_viz_yellow_300x300.jpg"
+      }
+   },
+    {
+      "pk":18,
+      "model":"products.product",
+      "fields":{
+         "sku":"P421083",
+         "name":"Thor Blitz XP Women's Boots",
+         "description":"Support starts at the ground level and the Thor Blitz XP Boots are designed to deliver just that.",
+         "price":129.96,
+         "category":5,
+         "rating":5,
+         "image_url":"thor_blitz_xp_womens_boots_300x300.jpg",
+         "image":"thor_blitz_xp_womens_boots_300x300.jpg"
+      }
+   },
+    {
+      "pk":19,
+      "model":"products.product",
+      "fields":{
+         "sku":"P871171",
+         "name":"Leatt Moto 5.5 FlexLock Enduro Boots",
+         "description":"Leatt Moto 5.5 FlexLock Enduro Boots",
+         "price":399.96,
+         "category":5,
+         "rating":5,
+         "image_url":"fly_racing_dirt_fr5_boots_300x300.jpg",
+         "image":"fly_racing_dirt_fr5_boots_300x300.jpg"
+      }
+   },
+    {
+      "pk":20,
+      "model":"products.product",
+      "fields":{
+         "sku":"P845302",
+         "name":"Alpinestars Tech 10 Supervented Boots",
+         "description":"The Tech 10 stands at the top of the boot podium. Microfiber and TPU construction for lightweight yet serious protection for every situation.",
+         "price":649.96,
+         "category":5,
+         "rating":5,
+         "image_url":"alpinestars_boot_t10_s_vnt_300x300.jpg",
+         "image":"alpinestars_boot_t10_s_vnt_300x300.jpg"
+      }
+   },
+    {
+      "pk":21,
+      "model":"products.product",
+      "fields":{
+         "sku":"P845272",
+         "name":"Fox Racing Instinct X Boots",
+         "description":"The Instinct X Off-Road Boots from Fox Racing are modeled after a championship winning motocross boot and refined further by enduro legend Taddy Blazu",
+         "price":484.96,
+         "category":5,
+         "rating":5,
+         "image_url":"fox_racing_instinct_x_boots_black_300x300.jpg",
+         "image":"fox_racing_instinct_x_boots_black_300x300.jpg"
+      }
+   },
+    {
+      "pk":22,
+      "model":"products.product",
+      "fields":{
+         "sku":"P845271",
+         "name":"TCX X-Helium Michelin Boots",
+         "description":"From novices to pros on a budget, the TCX X Helium Boots are the cutting edge of affordable off-road comfort and performance.",
+         "price":249.96,
+         "category":5,
+         "rating":4.5,
+         "image_url":"tcx_boots_x_helium_michelin_black_300x300.jpg",
+         "image":"tcx_boots_x_helium_michelin_black_300x300.jpg"
+      }
+   },
+    {
+      "pk":23,
+      "model":"products.product",
+      "fields":{
+         "sku":"P845250",
+         "name":"O'Neal Rider Boots",
+         "description":"The O'Neal Rider Boots deliver excellent protection and performance thanks to the metal shank reinforcements paired with the injection molded plastic",
+         "price":119.96,
+         "category":5,
+         "rating":4.5,
+         "image_url":"o_neal_element_boots_black_300x300.jpg",
+         "image":"o_neal_element_boots_black_300x300.jpg"
+      }
+   },
+    {
+      "pk":24,
+      "model":"products.product",
+      "fields":{
+         "sku":"P845249",
+         "name":"TCX Comp EVO Michelin Boots",
+         "description":"From rutted tracks to tree lined trails, experienced riders expect nothing less than perfection when it comes to their boots.",
+         "price":455.96,
+         "category":5,
+         "rating":5,
+         "image_url":"tcx_comp_evo_michelin_boots_black_300x300.jpg",
+         "image":"tcx_comp_evo_michelin_boots_black_300x300.jpg"
+      }
    }
-   
+    
 ]
