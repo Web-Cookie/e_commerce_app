@@ -334,6 +334,174 @@
          "image_url":"tcx_comp_evo_michelin_boots_black_300x300.jpg",
          "image":"tcx_comp_evo_michelin_boots_black_300x300.jpg"
       }
+   },
+   {
+      "pk":25,
+      "model":"products.product",
+      "fields":{
+         "sku":"P845230",
+         "name":"Fly Racing Dirt F-16 Jersey",
+         "description":"The Fly Racing Dirt F-16 Jersey delivers maximum performance with a low profile, multi-panel construction for a comfortable fit. ",
+         "price":23.76,
+         "category":9,
+         "rating":5,
+         "image_url":"fly_racing_dirt_youth_f16_jersey_black_grey_750x750.jpg",
+         "image":"fly_racing_dirt_youth_f16_jersey_black_grey_750x750.jpg"
+      }
+   },
+    {
+      "pk":26,
+      "model":"products.product",
+      "fields":{
+         "sku":"P670983",
+         "name":"Klim Dakar Jersey",
+         "description":"The Klim Dakar Jersey is the perfect highly durable balanced-ventilation off-road jersey.",
+         "price":23.76,
+         "category":9,
+         "rating":4.2,
+         "image_url":"klim_dakar_jersey_300x300.jpg",
+         "image":"klim_dakar_jersey_300x300.jpg"
+      }
+   },
+    {
+      "pk":27,
+      "model":"products.product",
+      "fields":{
+         "sku":"P845221",
+         "name":"O'Neal Mayhem Lite Crank Jersey",
+         "description":"Built to be bold and lightweight, the Mayhem Lite gear features bright colors and fast graphics.",
+         "price":39.99,
+         "category":9,
+         "rating":5,
+         "image_url":"o_neal_mayhem_crank_jers_black_multi_300x300.jpg",
+         "image":"o_neal_mayhem_crank_jers_black_multi_300x300.jpg"
+      }
+   },
+    {
+      "pk":28,
+      "model":"products.product",
+      "fields":{
+         "sku":"P845219",
+         "name":"Klim Tactical Pro Jersey",
+         "description":"Featherweight chain mail for the knights of the hare-scramble. More than just another iteration of the Dakar Pro Jersey, the Klim Tactical Pro Jersey",
+         "price":139.76,
+         "category":9,
+         "rating":4,
+         "image_url":"klim_tactical_pro_jersey_grey_300x300.jpg",
+         "image":"klim_tactical_pro_jersey_grey_300x300.jpg"
+      }
+   },
+    {
+      "pk":29,
+      "model":"products.product",
+      "fields":{
+         "sku":"P845111",
+         "name":"Fly Racing Dirt Evolution DST LE Jersey",
+         "description":"The Fly Racing Dirt Evolution Collection has been reimagined and fully overhauled for greater performance, comfort and longevity.",
+         "price":59.76,
+         "category":9,
+         "rating":3.5,
+         "image_url":"fly_racing_dirt_evolution_dstle_jersey_300x300.jpg",
+         "image":"fly_racing_dirt_evolution_dstle_jersey_300x300.jpg"
+      }
+   },
+    {
+      "pk":30,
+      "model":"products.product",
+      "fields":{
+         "sku":"P845389",
+         "name":"Klim XC Lite Jersey",
+         "description":"The Klim XC Lite Jersey is built for serious off road riding in seriously hot climates.",
+         "price":29.76,
+         "category":9,
+         "rating":3.8,
+         "image_url":"klim_xc_lite_jersey_300x300.jpg",
+         "image":"klim_xc_lite_jersey_300x300.jpg"
+      }
+   },
+    {
+      "pk":31,
+      "model":"products.product",
+      "fields":{
+         "sku":"P845028",
+         "name":"BILT Amped Evo Jersey",
+         "description":"BILT Amped Evo Jersey",
+         "price":19.76,
+         "category":9,
+         "rating":5,
+         "image_url":"bilt_amped_evo_jersey_black_white_300x300.jpg",
+         "image":"bilt_amped_evo_jersey_black_white_300x300.jpg"
+      }
+   },
+    {
+      "pk":32,
+      "model":"products.product",
+      "fields":{
+         "sku":"P845230",
+         "name":"BILT Amped Evo Youth Jersey",
+         "description":"BILT Amped Evo Youth Jersey",
+         "price":18.76,
+         "category":9,
+         "rating":4.5,
+         "image_url":"bilt_amped_evo_youth_jersey_black_white_300x300.jpg",
+         "image":"bilt_amped_evo_youth_jersey_black_white_300x300.jpg"
+      }
+   },
+    {
+      "pk":33,
+      "model":"products.product",
+      "fields":{
+         "sku":"P8451682",
+         "name":"Fly Racing Dirt Lite Women's Jersey",
+         "description":"Fly Racing Dirt designs gear specifically for women in a way that enhances comfort & performance without making any sacrifices.",
+         "price":33.16,
+         "category":9,
+         "rating":5,
+         "image_url":"fly_racing_dirt_womens_lite_jersey_blue_hi_vis_white_black_300x300.jpg",
+         "image":"fly_racing_dirt_womens_lite_jersey_blue_hi_vis_white_black_300x300.jpg"
+      }
+   },
+    {
+      "pk":34,
+      "model":"products.product",
+      "fields":{
+         "sku":"P845230",
+         "name":"O'Neal Element Villain Jersey",
+         "description":"The Element line brings you race ready graphics, superior entry-level materials and comes in a wide array of colors and sizes to fit the entire family",
+         "price":24.76,
+         "category":9,
+         "rating":4,
+         "image_url":"o_neal_element_villain_jersey_grey_300x300.jpg",
+         "image":"o_neal_element_villain_jersey_grey_300x300.jpg"
+      }
+   },
+   {
+      "pk":35,
+      "model":"products.product",
+      "fields":{
+         "sku":"P84512367",
+         "name":"O'Neal Element Classic Jersey",
+         "description":"The Element line brings you race ready graphics, superior entry-level materials and comes in a wide array of colors and sizes to fit the entire family",
+         "price":24.76,
+         "category":9,
+         "rating":4.5,
+         "image_url":"o_neal_element_classic_jersey_black_300x300.jpg",
+         "image":"o_neal_element_classic_jersey_black_300x300.jpg"
+      }
+   },
+   {
+      "pk":36,
+      "model":"products.product",
+      "fields":{
+         "sku":"P84523098",
+         "name":"Fly Racing Dirt Kinetic K120 Jersey",
+         "description":"The Fly Kinetic line comes with a workhorse reputation for durability and comfort in race-wear. ",
+         "price":33.11,
+         "category":9,
+         "rating":5,
+         "image_url":"fly_racing_dirt_youth_kinetic_k120_jersey_black_white_red_300x300.jpg",
+         "image":"fly_racing_dirt_youth_kinetic_k120_jersey_black_white_red_300x300.jpg"
+      }
    }
     
 ]
