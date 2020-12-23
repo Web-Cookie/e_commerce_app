@@ -502,6 +502,161 @@
          "image_url":"fly_racing_dirt_youth_kinetic_k120_jersey_black_white_red_300x300.jpg",
          "image":"fly_racing_dirt_youth_kinetic_k120_jersey_black_white_red_300x300.jpg"
       }
+   },
+    {
+      "pk":37,
+      "model":"products.product",
+      "fields":{
+         "sku":"P670985",
+         "name":"Klim Dakar Pants",
+         "description":"Versatility and durability for days. 840D Cordura and a user-friendly controlled vent scheme make the Dakar Pants Klim’s most popular off-road option.",
+         "price":229.11,
+         "category":6,
+         "rating":5,
+         "image_url":"klim_dakar_pants_750x750.jpg",
+         "image":"klim_dakar_pants_750x750.jpg"
+      }
+   },
+   {
+      "pk":38,
+      "model":"products.product",
+      "fields":{
+         "sku":"P670988",
+         "name":"Fly Racing Dirt F-16 Pants",
+         "description":"The Fly Racing Dirt F-16 Pants deliver outstanding performance, durability and comfort thanks to their 600D",
+         "price":229.11,
+         "category":6,
+         "rating":4.5,
+         "image_url":"fly_racing_dirt_f16_pants_black_grey_750x750.jpg",
+         "image":"fly_racing_dirt_f16_pants_black_grey_750x750.jpg"
+      }
+   },
+    {
+      "pk":39,
+      "model":"products.product",
+      "fields":{
+         "sku":"P670966",
+         "name":"Troy Lee SE Pro Air Boldor Pants",
+         "description":"The SE Pro Air line of gear from Troy Lee Designs is engineered for the serious rider and racer alike. Keeping race day in mind, lightweight materials",
+         "price":67.11,
+         "category":6,
+         "rating":4.5,
+         "image_url":"troy_lee_se_pro_air_boldor_pants_black_white_750x750.jpg",
+         "image":"troy_lee_se_pro_air_boldor_pants_black_white_750x750.jpg"
+      }
+   },
+   {
+      "pk":40,
+      "model":"products.product",
+      "fields":{
+         "sku":"P670977",
+         "name":"Klim Mojave Pants",
+         "description":"The Klim Mojave Over The Boots Pants deliver ultimate off-road protection, durability and maximum airflow for comfort in extreme summer temperatures.",
+         "price":199.11,
+         "category":6,
+         "rating":4.5,
+         "image_url":"klim_mojave_pant_monument_sage_750x750.jpg",
+         "image":"klim_mojave_pant_monument_sage_750x750.jpg"
+      }
+   },
+   {
+      "pk":41,
+      "model":"products.product",
+      "fields":{
+         "sku":"P670937",
+         "name":"Fly Racing Dirt F-16 Pants",
+         "description":"The F-16 line from Fly Racing is exactly what you need and built to last",
+         "price":59.11,
+         "category":6,
+         "rating":4.5,
+         "image_url":"fly_racing_dirt_f16_pants_blue_black_hi_vis_750x750.jpg",
+         "image":"fly_racing_dirt_f16_pants_blue_black_hi_vis_750x750.jpg"
+      }
+   },
+   {
+      "pk":41,
+      "model":"products.product",
+      "fields":{
+         "sku":"P670931",
+         "name":"Leatt 5.5 Body Protector",
+         "description":"The Leatt 5.5 Body Protector delivers the ultimate in upper body protection and covers the front, back, shoulder, flank and elbow armor.",
+         "price":289.11,
+         "category":2,
+         "rating":4.5,
+         "image_url":"leatt55_body_protector_750x750.jpg",
+         "image":"leatt55_body_protector_750x750.jpg"
+      }
+   },
+   {
+      "pk":42,
+      "model":"products.product",
+      "fields":{
+         "sku":"P6709281",
+         "name":"Leatt 3DF AirFit Body Protector",
+         "description":"Leatt’s top-of-the-line soft body protection features lighter weight, more ventilation and an ultra secure strapping system.",
+         "price":269.11,
+         "category":2,
+         "rating":4.5,
+         "image_url":"leatt3_df_air_fit_body_protector_750x750.jpg",
+         "image":"leatt3_df_air_fit_body_protector_750x750.jpg"
+      }
+   },
+   {
+      "pk":43,
+      "model":"products.product",
+      "fields":{
+         "sku":"P6709981",
+         "name":"Moose Racing XC1 Body Armor",
+         "description":"Moose Racing XC1 Body Armor",
+         "price":99.11,
+         "category":2,
+         "rating":5,
+         "image_url":"moose_racing_xc1_body_armor_grey_750x750.jpg",
+         "image":"moose_racing_xc1_body_armor_grey_750x750.jpg"
+      }
+   },
+   {
+      "pk":44,
+      "model":"products.product",
+      "fields":{
+         "sku":"P6709981",
+         "name":"Troy Lee 7855 Long Sleeve Armored Shirt",
+         "description":"The Troy Lee Long Sleeved Armored Shirt flows air for days all while keeping roost at bay.",
+         "price":175.11,
+         "category":2,
+         "rating":5,
+         "image_url":"troy_lee_designs_bp7855_hw_ls_shirt_750x750.jpg",
+         "image":"troy_lee_designs_bp7855_hw_ls_shirt_750x750.jpg"
+      }
+   },
+   {
+      "pk":45,
+      "model":"products.product",
+      "fields":{
+         "sku":"P6702981",
+         "name":"100% Racecraft Goggles - Mirrored Lens",
+         "description":"The premier 100% line of goggles represents their commitment to create an enhanced user experience",
+         "price":75.11,
+         "category":7,
+         "rating":5,
+         "image_url":"100_racecraft_goggle_pinacles_lens_750x750.jpg",
+         "image":"100_racecraft_goggle_pinacles_lens_750x750.jpg"
+      }
+   },
+   {
+      "pk":46,
+      "model":"products.product",
+      "fields":{
+         "sku":"P6704081",
+         "name":"Thor Combat Sand Goggles",
+         "description":"The Thor Combat Sand Goggles help you keep focus while ripping across the dunes and were designed and developed for maximum performance.",
+         "price":32.11,
+         "category":7,
+         "rating":5,
+         "image_url":"thor_combat_sand_goggles_750x750.jpg",
+         "image":"thor_combat_sand_goggles_750x750.jpg"
+      }
    }
-    
+
+
 ]
