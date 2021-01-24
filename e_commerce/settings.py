@@ -32,7 +32,7 @@ SECRET_KEY = 'rv)_kz9_5l89eyd&ckc()1xnf(^f)l4p^!g$5ng$_z$z)jf0!g'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['e-commerce-s.herokuapp.com', 'localhost']
 
 
 # Application definition
