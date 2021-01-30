@@ -59,3 +59,69 @@ Shows deals, clearance, and specials
 - **Message** - A verification email will be sent to user's email and after confirming clients will be able to log into his or her account with credidentials provided
 - The login page only requires the user to input there username and password. There is a link to the register page so a user can create an account, and a password reset link if a user has forgotten or lost their password and remember checkbox to store logging details.
 <img src="https://github.com/Web-Cookie/e_commerce_app/blob/master/media/Loginn.PNG" alt="mockup" target="_blank" rel="noopener" width="850">
+
+#### Shopping bag page
+- **Product Info** - Displays a summary of the products ordered along with an image and price
+- **Update quantity** - User can amend the quantity of the chosen product by clicking the '-' or '+' to increasing or decreasing the quantity in bag
+- **Remove** - Allows the user to remove a product from the bag
+- **Keep shopping** - Redirects user to All products page
+<img src="https://github.com/Web-Cookie/e_commerce_app/blob/master/media/Loginn.PNG" alt="mockup" target="_blank" rel="noopener" width="850">
+<img src="https://github.com/Web-Cookie/e_commerce_app/blob/master/media/Loginn.PNG" alt="mockup" target="_blank" rel="noopener" width="850">
+
+#### Checkout page
+- **Order summary** - Gives a detailed overview of all products in the bag, displaying qty, price, image, and description of the product/s
+- **Complete Order** - Allows the user to make a card payment.
+- **Stripe** - Allows users to pay securely using Stripe payment
+- **Adjust Bag** - Takes user back to shopping bag where he or she can make changes to the order
+<img src="https://i.ibb.co/bd9Dp7C/Checkout.png" alt="mockup" target="_blank" rel="noopener" width="850">
+
+#### Checkout Success page
+- **Thank You page** - User receives confirmation that the order has been placed, also an email is send to user’s account. The thank you page display an order number and details of the order
+
+#### Admin service managment
+- Only available for superusers
+* **Add | Edit | Delete a Product** superusers can add, edit, or delete products
+<img src="https://i.ibb.co/bd9Dp7C/Checkout.png" alt="mockup" target="_blank" rel="noopener" width="850">
+
+### Features to Implement
+Images 404 and 500 errors need to be implemented 
+
+### Languages
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) 
+- [JavaScript](https://www.javascript.com/)
+- [Python](https://www.python.org/) 
+- [Jinja](https://jinja.palletsprojects.com/en/2.10.x/) 
+
+### Libraries and Frameworks
+- [Django](https://www.djangoproject.com/) - Django framework for developing the project
+- [Bootstrap](https://www.bootstrapcdn.com/) - used for layout and design and fonts
+- [Google Fonts](https://fonts.google.com/) - to import fonts.
+- [FontAwesome](https://fontawesome.com/) - to provide icons used across the project. 
+- [JQuery](https://jquery.com/) - to initiate Bootstrap functions
+- [Gunicorn](https://pypi.org/project/gunicorn/) - a Python WSGI HTTP Server to enable deployment to Heroku
+- [Psycopg2](https://pypi.org/project/psycopg2/) - to enable the PostgreSQL database to function with Django
+- [Stripe](https://stripe.com/ie) -to enable financial tranactions
+- [Django Crispy Forms](https://django-crispy-forms.readthedocs.io/en/latest/) - to style Django forms
+
+### Tools
+- [GitPod](https://www.gitpod.io/) - has been used as an online IDE, the online version of visual studion
+- [GitHub] Used for version control and hosting software development
+- [PIP](https://pip.pypa.io/en/stable/installing/) - pip3 install for installing various functions
+- [AWS S3 Bucket](https://aws.amazon.com/) -  Storage of static and media files
+- [Boto3](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html) for compatibility with AWS
+- [Travis](https://travis-ci.org/) - For Testing
+- [Balsamiq](https://balsamiq.com/) - for Wireframing
+
+### Hosting
+- [**Heroku**](https://www.heroku.com/) - Hosting platform where complete and fully funcional app was deployed
+
+## Testing
+### Validation
+HTML:  https://validator.w3.org/ for HTML code
+
+CSS:  https://jigsaw.w3.org/css-validator/ for CSS code
+
+JavaScript:  https://jshint.com/ for Javascript code
+
+[PEP8 Online]: http://pep8online.com/ for Python code
