@@ -73,15 +73,16 @@ Shows deals, clearance, and specials
 - **Complete Order** - Allows the user to make a card payment.
 - **Stripe** - Allows users to pay securely using Stripe payment
 - **Adjust Bag** - Takes user back to shopping bag where he or she can make changes to the order
-<img src="https://i.ibb.co/bd9Dp7C/Checkout.png" alt="mockup" target="_blank" rel="noopener" width="850">
+<img src="https://github.com/Web-Cookie/e_commerce_app/blob/master/media/Checkout%20page.PNG" alt="mockup" target="_blank" rel="noopener" width="850">
 
 #### Checkout Success page
 - **Thank You page** - User receives confirmation that the order has been placed, also an email is send to user’s account. The thank you page display an order number and details of the order
+<img src="https://github.com/Web-Cookie/e_commerce_app/blob/master/media/Confirmation%20of%20payment.PNG" alt="mockup" target="_blank" rel="noopener" width="850">
 
 #### Admin service managment
 - Only available for superusers
 * **Add | Edit | Delete a Product** superusers can add, edit, or delete products
-<img src="https://i.ibb.co/bd9Dp7C/Checkout.png" alt="mockup" target="_blank" rel="noopener" width="850">
+<img src="https://github.com/Web-Cookie/e_commerce_app/blob/master/media/Add%20product.PNG" alt="mockup" target="_blank" rel="noopener" width="850">
 
 ### Features to Implement
 Images 404 and 500 errors need to be implemented 
