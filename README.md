@@ -126,3 +126,87 @@ CSS:  https://jigsaw.w3.org/css-validator/ for CSS code
 JavaScript:  https://jshint.com/ for Javascript code
 
 [PEP8 Online]: http://pep8online.com/ for Python code
+
+# Travis Integration Testing
+
+The integration testing of my code has been done through Travis CI. Total of 13 tests have been implemented. Primarily, under products. 
+
+tests_forms.py, tests_models.py, tests_views.py, tests_urls.py
+
+You can run these by typing python3 manage.py test or go to the top of the ReadMe file and click on build passing button
+
+<div align="right">
+    <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
+
+## Deployment
+This project was developed through [GitPod](https://www.gitpod.io/) online IDE and using Git & GitHub for version control. It is hosted on the [Heroku](https://heroku.com/) platform. Static and media files are hosted by AWS S3 bakets
+### Local Deployment
+To be able to run this project, the following tools have to be installed:
+- [GitPod](https://www.gitpod.io/) 
+- [Git](https://git-scm.com/)
+- [PIP](https://pip.pypa.io/en/stable/installing/) 
+- [Python3](https://www.python.org/download/releases/3.0/)    
+
+Also, account creation needs to the below apps
+- [Stripe](https://stripe.com/en-ie) For payments 
+- [AWS](https://aws.amazon.com/) for hosting the static and media files 
+- [Gmail](https://mail.google.com/)to be able to send confirmation emails upon registering
+
+#### Directions
+The easiest is to open the terminal and do the following command:
+git clone https://github.com/Web-Cookie/e_commerce_app
+
+Create environment variables. Please keep in mind that this process may vary depending on the IDE you’re using    
+    - Create .env 
+    - Add .env to the .gitignore file in your project's root directory
+    - In .env file set the following variables 
+    
+    import os  
+   
+    os.environ["STRIPE_PUBLIC_KEY"] = "<Your Stripe Public key>"    
+    os.environ["STRIPE_SECRET_KEY"] = "<Your Stripe Secret key>"    
+    os.environ["STRIPE_WH_SECRET"] = "<Your Stripe WH_Secret key>"     
+     ```
+       
+    
+Install all requirements from the requirements.txt 
+In the terminal type pip3 install -r requirements.txt 
+All of the below should be in your requirements.txt file
+
+asgiref==3.3.1
+boto3==1.16.60
+botocore==1.19.60
+dj-database-url==0.5.0
+Django==3.1.4
+django-allauth==0.44.0
+django-countries==7.0
+django-crispy-forms==1.10.0
+django-storages==1.11.1
+gunicorn==20.0.4
+jmespath==0.10.0
+oauthlib==3.1.0
+Pillow==8.0.1
+psycopg2-binary==2.8.6
+PyJWT==1.7.1
+python3-openid==3.2.0
+pytz==2020.4
+requests-oauthlib==1.3.0
+s3transfer==0.3.4
+sqlparse==0.4.1
+stripe==2.55.1
+
+In the terminal in your IDE migrate the models to crete a database using the following commands:    
+python3 manage.py makemigrations`    
+python3 manage.py migrate    
+Load the data fixtures(**categories**, **products**) in that order into the database using the following command:    
+python3 manage.py loaddata <fixture_name>        
+A superuser has to be created in order to be able to access the admin control panel. In the terminal type python3 manage.py cretesuperuser.
+The superuser access will enable you to add, edit or delete products, something that clients won’t have access to.
+After all this steps, you can run server locally by typing in the terminal
+python3 manage.py runserver
+To access the admin control panel you can simply add /admin/ at the end of the url link
+
+
+
