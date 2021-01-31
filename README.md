@@ -189,10 +189,9 @@ To access the admin control panel you can simply add /admin/ at the end of the u
 Create requirements.txt file which will contain all of the dependencies
 In terminal: pip3 freeze > requirements.txt
 Create a Procfile to tell Heroku how to run the app in terminal:
-web: gunicorn e_commerce_s.wsgi-*:application
-Push to Github
-Go to Heroku and create a new app, assign a name and chose region which is closes to your location
-Go to Resource tab in herokum, then to Add-ons and look for Heroku Postgres select Hobby Dev — Free and click Provision button to add it to your project
+web: gunicorn e_commerce_s.wsgi:application.Push to Github.
+Go to Heroku and create a new app, assign a name and chose region which is closes to your location.
+Go to Resource tab in herokum, then to Add-ons and look for Heroku Postgres select Hobby Dev — Free and click Provision button to add it to your project.
 Go to settings and Reveal Config Vars
 
 | KEY            | VALUE         |
@@ -217,13 +216,13 @@ Go to setting.py and temporary comment out the current database settings code an
     }
   ```
 
-This is a temporary settings changes and for security reasons **DO NOT COMMIT TO GITHUB** 
+This is a temporary settings changes and for security reasons **DO NOT COMMIT TO GITHUB**. 
 Next, you have to migrate the database models to the Postgress database.
 In terminal:
 python3 manage.py makemigrations
 python3 manage.py migrate
-Load the fixture data for categories and products. Please keep in mind that categories should be loaded first as products are very much reliant on categories 
-python3 manage.py loaddata <fixture_name>
+Load the fixture data for categories and products. Please keep in mind that categories should be loaded first as products are very much reliant on categories.
+python3 manage.py loaddata <fixture_name>.
 Create a superuser. In terminal python3 manage.py createsuperuser
 Go back to settings.py and delete the postgress database and uncomment the database setting. Add your Heroku app URL to ALLOWED_HOSTS in the settings.py file. 
 You can connect Heroku to GitHub to automatically deploy each time you push to GitHub.    
