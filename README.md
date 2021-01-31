@@ -107,7 +107,7 @@ Images 404 and 500 errors need to be implemented
 
 ### Tools
 - [GitPod](https://www.gitpod.io/) - has been used as an online IDE, the online version of visual studion
-- [GitHub] Used for version control and hosting software development
+- [GitHub](https://github.com/) Used for version control and hosting software development
 - [PIP](https://pip.pypa.io/en/stable/installing/) - pip3 install for installing various functions
 - [AWS S3 Bucket](https://aws.amazon.com/) -  Storage of static and media files
 - [Boto3](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html) for compatibility with AWS
@@ -171,7 +171,7 @@ Install all requirements from the requirements.txt
 In the terminal type pip3 install -r requirements.txt 
 All of the below should be in your requirements.txt file
 
-<img src="https://github.com/Web-Cookie/e_commerce_app/blob/master/media/Checkout%20page.PNG" alt="mockup" target="_blank" rel="noopener" width="850">
+<img src="https://github.com/Web-Cookie/e_commerce_app/blob/master/media/requirements.png" alt="mockup" target="_blank" rel="noopener" width="850">
 
 In the terminal in your IDE migrate the models to crete a database using the following commands:    
 python3 manage.py makemigrations`    
@@ -189,7 +189,7 @@ To access the admin control panel you can simply add /admin/ at the end of the u
 Create requirements.txt file which will contain all of the dependencies
 In terminal: pip3 freeze > requirements.txt
 Create a Procfile to tell Heroku how to run the app in terminal:
-web: gunicorn e_commerce_app.wsgi-*:application
+web: gunicorn e_commerce_s.wsgi-*:application
 Push to Github
 Go to Heroku and create a new app, assign a name and chose region which is closes to your location
 Go to Resource tab in herokum, then to Add-ons and look for Heroku Postgres select Hobby Dev — Free and click Provision button to add it to your project
@@ -211,9 +211,11 @@ Go to settings and Reveal Config Vars
 
 Go to setting.py and temporary comment out the current database settings code and paste below code
 
-DATABASES = {     
+```bash 
+  DATABASES = {     
         'default': dj_database_url.parse("<your Postrgres database URL here>")     
     }
+  ```
 
 This is a temporary settings changes and for security reasons **DO NOT COMMIT TO GITHUB** 
 Next, you have to migrate the database models to the Postgress database.
